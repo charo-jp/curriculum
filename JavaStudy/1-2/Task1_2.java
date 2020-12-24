@@ -32,6 +32,5 @@ public class Task1_2 {
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
         // [intArrayの2番目の数字２０と5番目の数字50を足した結果をコンソールに出力している]
         System.out.println(intArray[1] + intArray[4]);
-
     }
 }
