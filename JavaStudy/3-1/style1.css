@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+}
+.wrapper{
+  width:400px;
+  margin:0 auto;
+}
+.header{
+  height:100px;
+  background-color:#141f40;
+}
+
+.left{
+  float:left;
+  background-color:#80bfa8;
+  width:150px;
+  height:250px;
+}
+.right{
+  float:right;
+  background-color:#8c2727;
+  width:250px;
+  height:250px;
+}
+.clearfix::after{
+  content:'';
+  display:block;
+  clear:both;
+}
+
+.footer{
+  height: 100px;
+  background-color:#d98d30;
+}
