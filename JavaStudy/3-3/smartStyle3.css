@@ -1,0 +1,47 @@
+@media screen and (max-width:479px) {
+  body{
+    width:200px;
+  }
+  .header{
+    height:200px;
+  }
+  .boxes{
+    top:20px;
+    left:70px;
+    height:160px;
+    width:60px;
+  }
+  .box1{
+    float:none;
+  }
+  .box2{
+    float:none;
+    margin: 0 10px 10px 10px;
+  }
+  .box3{
+    float:none;
+    margin: 0 10px 10px 10px;
+  }
+  .left{
+    float:none;
+    width:200px;
+    height:100px;
+  }
+  .right{
+    float:none;
+    width:200px;
+    height:200px;
+  }
+  .rac1{
+    top:20px;
+    left:30px;
+  }
+  .rac2{
+    top:80px;
+    left:30px;
+  }
+  .rac3{
+    top:140px;
+    left:30px;
+  }
+}
