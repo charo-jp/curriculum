@@ -1,10 +1,17 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+import java.util.regex.*;
 
 public class Practice {
 	public static void main(String[] args){
-		String[] strings = { "abc", "hello", "army of robots", null }; // 0
-
-		String s1 = strings[0]; // 1
-		String s2 = strings[3]; // 2
-		String s4 = strings[strings.length]; //
+	    Pattern charo = Pattern.compile("[aiueo]{2}");
+        String string ="beautifulcharowaan";
+        Matcher matcher = charo.matcher(string);
+        int doublevowels = 0;
+        while (matcher.find()){
+            doublevowels++;
+        }
+        System.out.println(doublevowels);
     }
 }
