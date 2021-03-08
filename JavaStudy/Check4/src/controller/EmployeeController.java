@@ -34,14 +34,17 @@ public class EmployeeController extends HttpServlet {
  EmployeeService service = new EmployeeService();
   // 問③ EmployeeBeanに、EmployeeServiceよりsearch関数を呼び出し、返り値を格納する。
  EmployeeBean bean = service.search(id, password);
-  // 問④ nullの部分に適切な引数をセットする。
+  // 問④ nullの部分に適切な引数をセットする。サーブレット内に値を保管している。
  request.setAttribute("EmployeeBean", bean);
 
  } catch (Exception e) {
  e.printStackTrace();
  } finally {
  ServletContext context = this.getServletContext();
+ //requestdispatcherはサーブレットからjspを表示するためのインターフェイス
+ //そのインターフェイスでgetRequestDispatcher(相対パス)を指定することで、指定先のjspを表示する
  RequestDispatcher dispatcher = context.getRequestDispatcher("/index.jsp");
+ //forward は
  dispatcher.forward(request, response);
  }
  }
