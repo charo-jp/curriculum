@@ -1,0 +1,60 @@
+INFO: Server version name:   Apache Tomcat/9.0.41 [Sun Mar 14 12:40:57 JST 2021]
+INFO: Server built:          Dec 3 2020 11:43:00 UTC [Sun Mar 14 12:40:57 JST 2021]
+INFO: Server version number: 9.0.41.0 [Sun Mar 14 12:40:57 JST 2021]
+INFO: OS Name:               Windows 10 [Sun Mar 14 12:40:57 JST 2021]
+INFO: OS Version:            10.0 [Sun Mar 14 12:40:57 JST 2021]
+INFO: Architecture:          amd64 [Sun Mar 14 12:40:57 JST 2021]
+INFO: Java Home:             C:\pleiades\java\11 [Sun Mar 14 12:40:57 JST 2021]
+INFO: JVM Version:           11.0.9+11 [Sun Mar 14 12:40:57 JST 2021]
+INFO: JVM Vendor:            AdoptOpenJDK [Sun Mar 14 12:40:57 JST 2021]
+INFO: CATALINA_BASE:         C:\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp2 [Sun Mar 14 12:40:57 JST 2021]
+INFO: CATALINA_HOME:         C:\pleiades\tomcat\9 [Sun Mar 14 12:40:57 JST 2021]
+INFO: Command line argument: -Dcatalina.base=C:\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp2 [Sun Mar 14 12:40:57 JST 2021]
+INFO: Command line argument: -Dcatalina.home=C:\pleiades\tomcat\9 [Sun Mar 14 12:40:57 JST 2021]
+INFO: Command line argument: -Dwtp.deploy=C:\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps [Sun Mar 14 12:40:57 JST 2021]
+INFO: Command line argument: -Dfile.encoding=UTF-8 [Sun Mar 14 12:40:57 JST 2021]
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\pleiades\java\11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/pleiades/eclipse//jre/bin/server;C:/pleiades/eclipse//jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Nodist\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\Users\yuya1\anaconda3;C:\Users\yuya1\anaconda3\scripts;C:\Users\yuya1\anaconda3\Library\bin;C:\Users\yuya1\AppData\Local\Microsoft\WindowsApps;C:\Users\yuya1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yuya1\anaconda3;C:\Users\yuya1\anaconda3\scripts;C:\texlive\2017\bin\win32;C:\Program Files\heroku\bin;C:\Users\yuya1\AppData\Local\atom\bin;C:\Program Files (x86)\Nodist\bin;C:\Users\yuya1\AppData\Local\Microsoft\WindowsApps;C:\Users\yuya1\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Users\yuya1\AppData\Local\GitHubDesktop\bin;C:\Users\yuya1\anaconda3\Library\bin;;C:\pleiades\eclipse;;.] [Sun Mar 14 12:40:57 JST 2021]
+INFO: Initializing ProtocolHandler ["http-nio-8080"] [Sun Mar 14 12:40:57 JST 2021]
+INFO: Server initialization in [798] milliseconds [Sun Mar 14 12:40:57 JST 2021]
+INFO: Starting service [Catalina] [Sun Mar 14 12:40:57 JST 2021]
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.41] [Sun Mar 14 12:40:57 JST 2021]
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [129] milliseconds. [Sun Mar 14 12:40:58 JST 2021]
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. [Sun Mar 14 12:40:58 JST 2021]
+INFO: Starting ProtocolHandler ["http-nio-8080"] [Sun Mar 14 12:40:58 JST 2021]
+INFO: Server startup in [745] milliseconds [Sun Mar 14 12:40:58 JST 2021]
+[MEMORY:42205096][2021/03/14 12:40:59.294] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:42205096][2021/03/14 12:40:59.294] [org.apache.jsp.login_jsp] [_jspService] [188] message = 
+[MEMORY:42697976][2021/03/14 12:41:04.731] [skillcheck.controller.BaseServlet] [<init>] [55] START
+[MEMORY:42697976][2021/03/14 12:41:04.738] [skillcheck.controller.BaseServlet] [<init>] [59] END
+[MEMORY:42697976][2021/03/14 12:41:04.748] [skillcheck.controller.EmployeeManagementController] [doPost] [99] START
+[MEMORY:42697976][2021/03/14 12:41:04.749] [skillcheck.controller.EmployeeManagementController] [getRequestType] [195] START
+[MEMORY:42697976][2021/03/14 12:41:04.750] [skillcheck.controller.EmployeeManagementController] [getRequestType] [198] requestTypeName = login
+[MEMORY:42697976][2021/03/14 12:41:04.750] [skillcheck.controller.EmployeeManagementController] [getRequestType] [217] this.responseBean = skillcheck.bean.ResponseBean@16fcd3f8
+[MEMORY:42697976][2021/03/14 12:41:04.751] [skillcheck.controller.EmployeeManagementController] [getRequestType] [227] END
+[MEMORY:42697976][2021/03/14 12:41:04.751] [skillcheck.controller.EmployeeManagementController] [doPost] [127] RequestType = LOGIN
+[MEMORY:42697976][2021/03/14 12:41:04.752] [skillcheck.service.BaseService] [<init>] [40] START
+[MEMORY:42697976][2021/03/14 12:41:04.752] [skillcheck.service.BaseService] [<init>] [47] END
+[MEMORY:42697976][2021/03/14 12:41:04.752] [skillcheck.controller.EmployeeManagementController] [lambda$1] [143] reqEmpId = 02123
+[MEMORY:42697976][2021/03/14 12:41:04.752] [skillcheck.controller.EmployeeManagementController] [doPost] [148] --- ログイン ---
+[MEMORY:42697976][2021/03/14 12:41:04.753] [skillcheck.controller.BaseServlet] [validateLogin] [136] START
+[MEMORY:42697976][2021/03/14 12:41:04.758] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [50] START
+[MEMORY:42697976][2021/03/14 12:41:04.758] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [67] START
+[MEMORY:42697976][2021/03/14 12:41:04.758] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [68] ExecuteCase = FIND_BY_EMPID
+[MEMORY:42697976][2021/03/14 12:41:04.759] [skillcheck.service.BaseService] [executeGetConnection] [54] START
+[MEMORY:48989432][2021/03/14 12:41:05.063] [skillcheck.service.BaseService] [executeGetConnection] [79] END
+[MEMORY:48989432][2021/03/14 12:41:05.064] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [162] START
+[MEMORY:48989432][2021/03/14 12:41:05.064] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [196] pEmployeeBeanList[0].empId = 02123
+■ 例外発生: [org.postgresql.core.v3.QueryExecutorImpl] [receiveErrorResponse] [2553]
+[MEMORY:49515768][2021/03/14 12:41:05.104] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [117] reqStatus  = 2
+[MEMORY:49515768][2021/03/14 12:41:05.104] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [118] reqMessage = SQL関連の例外です！&#010;preparedStatementやresultSetの使い方に誤りが無いか確認しましょう！
+[MEMORY:49515768][2021/03/14 12:41:05.105] [skillcheck.service.BaseService] [executeCloseSQL] [117] START
+[MEMORY:49515768][2021/03/14 12:41:05.105] [skillcheck.service.BaseService] [executeCloseSQL] [128] END
+■ 例外発生: [skillcheck.service.EmployeeManagementService] [executeDBAccess] [145]
+[MEMORY:49515768][2021/03/14 12:41:05.106] [skillcheck.controller.BaseServlet] [validateLogin] [189] isLoginError = true
+[MEMORY:49515768][2021/03/14 12:41:05.106] [skillcheck.controller.BaseServlet] [validateLogin] [191] END
+[MEMORY:49515768][2021/03/14 12:41:05.106] [skillcheck.controller.EmployeeManagementController] [doPost] [163] reqStatus  = 2
+[MEMORY:49515768][2021/03/14 12:41:05.106] [skillcheck.controller.EmployeeManagementController] [doPost] [164] reqMessage = SQL関連の例外です！&#010;preparedStatementやresultSetの使い方に誤りが無いか確認しましょう！
+[MEMORY:49515768][2021/03/14 12:41:05.106] [skillcheck.controller.EmployeeManagementController] [doPost] [171] 遷移先 = null
+[MEMORY:49515768][2021/03/14 12:41:05.106] [skillcheck.controller.EmployeeManagementController] [doPost] [184] END
+[MEMORY:49515768][2021/03/14 12:41:05.111] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:49515768][2021/03/14 12:41:05.111] [org.apache.jsp.login_jsp] [_jspService] [188] message = SQL関連の例外です！&#010;preparedStatementやresultSetの使い方に誤りが無いか確認しましょう！

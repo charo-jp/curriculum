@@ -17,6 +17,7 @@ import bean.EmployeeBean;
 import service.EmployeeService;
 
 public class EmployeeController extends HttpServlet {
+	// HttpSErvletRequestはクライアントからのリクエスト情報が格納されいてるオブジェクト
  public void doPost(HttpServletRequest request, HttpServletResponse response)
  throws ServletException, IOException {
 
@@ -34,17 +35,18 @@ public class EmployeeController extends HttpServlet {
  EmployeeService service = new EmployeeService();
   // 問③ EmployeeBeanに、EmployeeServiceよりsearch関数を呼び出し、返り値を格納する。
  EmployeeBean bean = service.search(id, password);
-  // 問④ nullの部分に適切な引数をセットする。サーブレット内に値を保管している。
+  // 問④ nullの部分に適切な引数をセットする。サーブレット内に値を保管している（リクエストを受信してから返すまで保管している）。
  request.setAttribute("EmployeeBean", bean);
 
  } catch (Exception e) {
  e.printStackTrace();
  } finally {
+// servletcontextはサーブレットからの設定を取得するためのインターフェース/　アプリケーションを管理する
  ServletContext context = this.getServletContext();
  //requestdispatcherはサーブレットからjspを表示するためのインターフェイス
- //そのインターフェイスでgetRequestDispatcher(相対パス)を指定することで、指定先のjspを表示する
+ //そのインターフェイスでgetRequestDispatcher(相対パス)を指定することで
  RequestDispatcher dispatcher = context.getRequestDispatcher("/index.jsp");
- //forward は
+ //forward はサーブレットで処理後、jspを呼び出すことをforwardという。、指定先のjspを表示する
  dispatcher.forward(request, response);
  }
  }

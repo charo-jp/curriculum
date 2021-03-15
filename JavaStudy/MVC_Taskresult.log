@@ -1,0 +1,10 @@
+WARNING: Problem with directory [C:\pleiades\eclipse\lib], exists: [false], isDirectory: [false], canRead: [false] [Sat Mar 13 16:30:18 JST 2021]
+WARNING: Problem with directory [C:\pleiades\eclipse\lib], exists: [false], isDirectory: [false], canRead: [false] [Sat Mar 13 16:30:18 JST 2021]
+WARNING: Problem with directory [C:\pleiades\eclipse\lib], exists: [false], isDirectory: [false], canRead: [false] [Sat Mar 13 16:30:18 JST 2021]
+WARNING: Problem with directory [C:\pleiades\eclipse\lib], exists: [false], isDirectory: [false], canRead: [false] [Sat Mar 13 16:30:18 JST 2021]
+java.lang.ClassNotFoundException: org.apache.catalina.startup.Catalina
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:471)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:589)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at org.apache.catalina.startup.Bootstrap.init(Bootstrap.java:260)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:442)
